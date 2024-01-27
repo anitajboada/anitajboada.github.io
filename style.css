@@ -1,0 +1,409 @@
+/*HTML RESET*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*BODY LAYOUT*/
+body{
+  font-family: 'Raleway', 'sans-serif';
+  background: #fff;
+  color:#333;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/*BASE STYLING*/
+
+/*-----Backgrounds-----*/
+.bg-dark {
+  background-color: #333;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.bg-grey{
+  background-color: #dcdce0;
+  padding: 20px;
+}
+
+/*-----Links-----*/
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+/*-----Lists-----*/
+ul {
+  list-style: none;
+}
+
+/*-----Headers-----*/
+h1, h2, h3, h4 {
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.section-title {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.section-title h2 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+/*-----Buttons-----*/
+.btn {
+  padding: 20px 30px;
+  margin: 0 10px;
+  color: #fff;
+  background-color: #ce171b;
+}
+
+/*MAIN STYLE*/
+
+/*-----HOME SECTION-----*/
+/* .hero {
+  background: url(/img/maratonlpwbkg.png);
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.hero::before {
+  content:''; 
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.01); 
+}
+
+.hero * {
+  z-index: 5;
+} */
+
+/*-----Navbar Styles-----*/
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  opacity: 10;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  padding: 0 30px;
+  transition: 0.5s;
+  z-index: 10;
+  border-bottom: solid 1px #d0d0d0;
+  overflow: hidden;
+}
+
+.navbar .logo {
+  width: 15%;
+}
+
+.navbar .nav {
+  width: 98%;
+}
+
+.navbar .top {
+  background: transparent;
+}
+
+.navbar a {
+  color: #333;
+  padding: 10px 20px;
+  margin: 0 15px;
+  font-weight: 300;
+}
+
+.navbar .nav a:hover {
+  border-bottom: 2px solid #999;
+} 
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar .logo a:hover {
+  border-bottom: 0;
+} 
+
+.navbar .logo img {
+  width: 130%;
+}
+
+/*-----Mobile Navigation-----*/
+.mobile-nav-icon {
+  display: none;
+}
+
+.mobile-nav-icon i {
+  font-size: 200%;
+  color: #333;
+}
+
+/*-----Hero Content-----*/
+.hero .content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0px;
+  /* height: 100%; */
+}
+
+.hero .content h1, h3 {
+  margin-bottom: 30px;
+}
+
+.hero .content h1 {
+  padding-top: 5%;
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.hero .content h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.content .landing-info{
+  display: flex;
+  align-items: center;
+  margin: 0 15%;
+}
+
+.content .event-version,
+.content .event-banner {
+  width: 50%;
+}
+
+.content .landing-info img {
+  width: 40%;
+} 
+
+.content .event-version p {
+ font-size: 2.5rem;
+}
+
+.content .buttons {
+  margin: 1% 0 2% 0;
+}
+
+.content .about-mlp {
+  text-align: justify;
+  background-color: #eaeaec;
+  margin-top: 1%;
+  padding: 1% 5%;
+}
+
+/*---Counter---*/
+.counter {
+  padding: 2% 0%;
+}
+
+.counter ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0 5px;
+  background-color: #dcdce0;
+}
+
+.counter ul li span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 4rem;
+  padding: 5px 30px;
+  margin: 5px 10px;
+}
+
+/*-----Buttons----*/
+.buttons {
+  display: flex;
+}
+
+/*-----RACE INFORMATION-----*/
+#race .layout-3 {
+  display: flex;
+  justify-content: space-around;
+  margin: 2% 0;
+}
+
+#race .layout-3 .card {
+  width: 30%;
+}
+
+.race-info .card-header {
+  display: flex;
+  align-items: center;
+}
+
+.race-info .header-info {
+  padding-left: 20px;
+}
+
+.race-info .header-info h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.race-info .card p,
+.race-info .card ul {
+  font-weight: 300; 
+  padding-left: 10%;
+}
+
+.race-info .cost {
+  display: flex;
+  align-items: center;
+}
+
+.race-info .cost-info {
+  width: 70%;
+} 
+
+.race-info .cost-info h4 {
+  font-weight: bold;
+  padding: 10px 0;
+} 
+
+.race-info .cost-info p {
+  padding: 0px;
+}
+
+.race-info .qr {
+  width: 30%;
+}
+.race-info .cost img {
+  width: 80%;
+}
+
+.race-info .layout-1 {
+  margin: 0 30px;
+}
+
+.race-info .layout-1 ul {
+  margin-top: 10px;
+  padding-left: 50px;
+}
+
+.race-info .card a,
+.route-notes a,
+.training-info a {
+  color:#ce171b;
+  font-weight: bold;
+}
+
+/*-----RACE ROUTE-----*/
+.route-info {
+  margin: 20px;
+}
+
+.route-info p {
+  padding-left: 5%;
+}
+
+.map-header {
+  padding-left: 10%;
+  padding-bottom: 20px;
+}
+
+.map-header h4 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.map-route {
+  margin: auto;
+  width: 75%;
+  padding-bottom: 2%;
+}
+
+.route-notes-header h4 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-left: 5%;
+  margin-bottom: 20px;
+}
+
+.route-notes {
+  margin: 20px;
+  padding-left: 6%;
+}
+
+.route-notes ul li {
+  list-style-type: disc;
+}
+
+.training-info {
+  padding: 0 6%;
+}
+
+/*-----SPONSORS-----*/
+.sponsors-info {
+  padding: 1% 2%;
+  text-align: justify;
+}
+
+.sponsors-container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  text-align: center;
+  justify-content: center;
+}
+
+/*-----PAST EVENTS-----*/
+.versions-container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20%;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+.version-item {
+  background-color: #dcdce0;
+  border: 1px solid #fff;
+  padding: 10px;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+.version-item a {
+  color:#ce171b;
+  font-weight: 500;
+}
+
+/*-----FOOTER-----*/
+#main-footer {
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+
+#main-footer a {
+  color: #fff;
+}
+
+

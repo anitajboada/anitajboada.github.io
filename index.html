@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+  rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/mobile.css">
+  <title>Maratón de La Paz</title>
+</head>
+<body>
+  <header id="home" class="hero">
+    <div id="navbar" class="navbar top">
+        <div class="logo">
+          <a href="/index.html"><img src="/img/logo.jpg" alt="Logo Conitzer"></a>
+        </div>
+        <div class="nav">
+          <ul id="menu">
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#race">Evento</a></li>
+            <li><a href="#route">Recorrido</a></li>
+            <li><a href="#sponsors">Auspiciadores</a></li>
+            <li><a href="#past-events">Eventos Pasados</a></li>
+          </ul>
+        </div>
+        <a class="mobile-nav-icon js--nav-icon" onclick="menu()"><i class="fas fa-bars fa-3x"></i></a>
+    </div>
+    <div class="content">
+      <h1>Maratón de La Paz</h1>
+      <h3>En un intento por mantener viva la llama del maratón en la capital de Bolivia, Cristian Conitzer, apoyado fuertemente por familiares y amigos, organiza esta carrera.</h3>
+      <div class="landing-info">
+        <div class="event-version">
+          <p>12° Versión</p>
+          <p>10 de Marzo, 2024</p>
+        </div>
+        <div class="event-banner">
+          <img src="/img/Banner.jpeg" alt="banner">
+        </div>
+      </div>
+      <div class="counter">
+        <ul>
+          <li class="countdown"><span id="days" class="badge badge-light text-secondary"></span>días</li>
+          <li class="countdown"><span id="hours" class="badge badge-light text-secondary"></span>horas</li>
+          <li class="countdown"><span id="minutes" class="badge badge-light text-secondary"></span>minutos</li>
+          <li class="countdown"><span id="seconds" class="badge badge-light text-secondary"></span>segundos</li>
+        </ul>
+      </div>
+      <div class="buttons">
+        <div class="reg-btn">
+          <a href="https://www.webscorer.com/register?raceid=325811" target="_blank" class="btn btn-dark">Inscribete</a>
+        </div>
+        <div class="info-btn">
+          <a href="/Convocatoria MLP 2024.pdf" target="_blank" class="btn btn-dark">Convocatoria</a>
+        </div>
+      </div>
+      <div class="about-mlp">
+        <p>La ciudad de La Paz, denominada Ciudad del Cielo, tiene una topografía muy especial: está construida en un valle, tiene por ende muy pocas calles planas y casi todas ellas son importantes. El diseño de la ruta va por las laderas de este valle. Son 42,2 km dentro de una topografía accidentada y además por un recorrido que afecta mínimamente al tráfico vehicular. El recorrido une de una forma muy especial las laderas este y oeste, los ríos Choqueyapu y Orkojahuira, los barrios altos y bajos con las avenidas y calles menos concurridas y más planas posibles. Para llegar a las partidas y salir de la meta se puede usar los actuales medios de transporte masivo como los teleféricos y los buses Puma Katari. Los invito a correr el 12o Maratón de La Paz por una ruta, cuyas espectaculares vistas compensan con creces el esfuerzo a realizar.</p>
+      </div>
+    </div>
+  </header>
+  
+  <div id="race">
+    <div class="section-title">
+      <h2>Lo Básico e Importante</h2>
+      <p>El evento Maratón de La Paz incluye el medio maratón y la carrera pedestre de 10 km y las versiones virtuales.</p>
+    </div>
+    <div class="race-info">
+      <div class="layout-3">
+        <div class="card bg-grey">
+          <div class="card-header">
+            <i class="fas fa-calendar-alt fa-2x"></i>
+            <div class="header-info">
+              <h4>Fecha</h4>
+            </div>
+          </div>
+          <p>10 de Marzo 2024</p>
+          <div class="card-header">
+            <i class="fas fa-clock fa-2x"></i>
+            <div class="header-info">
+              <h4>Horarios de Partida</h4>
+            </div>
+          </div>
+          <div class=""></div>
+          <ul>
+            <li><b>Maratón:</b> 7 am.</li>
+            <li><b>Medio Maratón:</b> 9 am.</li>
+            <li><b>Carrera Pedestre:</b> 10 am.</li>
+          </ul>
+        </div>
+        <div class="card bg-grey">
+          <div class="card-header">
+            <i class="fas fa-map-marker-alt fa-2x"></i>
+            <div class="header-info">
+              <h4>Lugares de Partida</h4>
+            </div>
+          </div>
+          <ul>
+            <li><b>Maratón:</b> Plaza del Bicentenario, frente a la UMSA.</li>
+            <li><b>Medio Maratón:</b> Villa El Carmen, calle 10, esquina Av. Ramiro Castillo (carretera a los Yungas) frente a Chocolates Cóndor.</li>
+            <li><b>Carrera pedestre:</b> Bajo Cotahuma, Sopocachi, Rotonda EmaVerde, final puentes Trillizos.</li>
+          </ul>
+        </div>
+        <div class="card bg-grey"> 
+          <div class="card-header">
+            <i class="fas fa-money-check-alt fa-2x"></i>
+            <div class="header-info">
+              <h4>Costo</h4>
+            </div>
+          </div>
+          <div class="cost">
+            <div class="cost-info">
+              <h4>Opción económica</h4>
+              <p><b>60 Bs.</b> Incluye dorsal, agua, control y medalla.</p>
+              <p>Pensada para los chicos que corren seguido y apenas les alcanza el presupuesto.</p>
+              <p><b>Cupo 100</b> participantes.</p>
+            </div>
+            <div class="qr">
+              <a href="/img/QR ECO.jpeg" target="blank"><img src="/img/QR ECO.jpeg" alt="qr-eco"></a>
+            </div>
+          </div>
+          <div class="cost">
+            <div class="cost-info">
+              <h4>Opción normal</h4>
+              <p><b>150 Bs.</b> Incluye polera, regalos, etc.</p>
+              <p>Para los que puedan apoyar.</p>
+              <p><b>Cupo 200</b> participantes.</p>
+            </div>
+            <div class="qr">
+              <a href="/img/QR Normal.jpeg" target="blank"><img src="/img/QR Normal.jpeg" alt="qr-normal"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="layout-1">
+        <div class="card bg-grey">
+          <div class="card-header">
+            <i class="fas fa-file-signature fa-2x"></i>
+            <div class="header-info">
+              <h4>Procedimiento de Inscripciones</h4>
+            </div>
+          </div>
+          <ul>
+            <li>- El registro de Inscripciones <b>se abre el 12 de septiembre. Cupo total de 300 participantes:</b> 100 Cupos para precio económico y 200 cupos para precio normal.</li>
+            <li>- Depositar 60 o 150 Bs. en la cuenta de Banco EcoFuturo de Cristian Conitzer 588497-000-001 desde cualquier punto del país. Toma una foto al comprobante de pago. Puedes  pagar vía código QR-Eco o QR-normal. Puedes pagar en el Banco Prodem. También puedes depositar en la cuenta en Alemania o vía PayPal. Puedes pagar personalmente en los puntos de inscripción. Ver en la <a href="/Convocatoria MLP 2024.pdf" target="Blank">convocatoria</a>.</li>
+            <li>- Llenar el <a href="https://www.webscorer.com/register?raceid=325811" target="Blank">formulario de inscripción</a>. El formulario te pide una foto del comprobante de transacción.</li>
+            <li><b>Nota:</b> Las inscripciones presenciales de último momento, viernes y sábado en la acreditación tendrán un costo adicional de 20 Bs y pueden no incluir polera. La página de inscripciones estará habilitada desde el 12 de septiembre de 2022.</li>
+            <li>Otra forma de inscripción es via <a href="https://worldsmarathons.com/es/marathon/maraton-de-la-paz" target="Blank">Worldsmarathon.com</a>. En esa página se puede pagar con cualquier tarjeta de crédito.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card layout-3">
+        <div class="card bg-grey">
+          <div class="card-header">
+            <i class="fas fa-clipboard-check fa-2x"></i>
+            <div class="header-info">
+              <h4>Requisitos</h4>
+            </div>
+          </div>
+          <ul>
+            <li><b>Para correr el maratón:</b> Haber nacido antes o inclusive el 2006 (cumplir18 años el 2024). Tener un certificado médico.</li>
+            <li><b>Para correr el medio maratón o la carrera pedestre</b> puedes tener 16 o 17 años, 2008 o antes.</li>
+            <li><b>Niños de edad igual o menor a 15 años</b> pueden correr acompañados. Para inscribirse tienen que poner el año que corresponda.</li>
+          </ul>
+        </div>
+        <div class="card bg-grey">
+          <div class="card-header">
+            <i class="fas fa-users fa-2x"></i>
+            <div class="header-info">
+              <h4>Categorias</h4>
+            </div>
+          </div>
+          <ul>
+            <li>Maratón: <b>Mayores</b> (de 18 a 34 años), <b>sénior</b> (de 35 años a 49 años) y <b>súper sénior</b> (de 50 años adelante).</li>
+            <li>Medio maratón: <b>juvenil</b> (de 16 y 17), <b>mayores, sénior y súper sénior</b>.</li>
+            <li>Carrera pedestre: <b>juvenil, mayores, sénior y súper sénior</b>.</li>
+          </ul>
+        </div>
+        <div class="card bg-grey">
+          <div class="card-header">
+            <i class="fas fa-file-alt fa-2x"></i>
+            <div class="header-info">
+              <h4>Convocatoria</h4>
+            </div>
+          </div>
+          <p><a href="/Convocatoria MLP 2024.pdf" target="Blank">Convocatoria 2024.</a> En ella están formulados en detalle todos los puntos importantes. Lee con detenimiento. </p>
+          <div class="card-header">
+            <i class="fas fa-shopping-bag fa-2x"></i>
+            <div class="header-info">
+              <h4>Recojo de Kit</h4>
+            </div>
+          </div>
+          <p>En calle <a href="/img/Maraton de La Paz Goitia.png" target="Blank">Goitia #117</a> los días viernes 8 y sábado 9 de marzo de 10 a 18 horas.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="route">
+    <div class="section-title">
+      <h2>Recorrido</h2>
+    </div>
+    <div class="route-info">
+      <p>La idea es hacer un maratón amigable, no uno que choque con los automovilistas, especialmente que no bloquee la autopista y que una los barrios paceños.</p>
+      <p>La carrera es una aventura. Es tipo trail, o sea acampo /ciudad/ traviesa y casi en forma autónoma, por eso publico el mapa y ofrezco entrenamientos de reconocimiento.</p>
+      <p>Hay puntos de hidratación y algunos voluntarios para guiarte en puntos importantes. La carrera la haces tú.</p>
+      <p>La ruta que propongo es por las calles más planas y tranquilas de la ciudad.</p>
+    </div>
+    <div class="map-header">
+      <h4>Ruta Maratón (42KM)</h4>
+    </div>
+    <div class="map-route">
+      <div style="overflow:hidden;position:relative;"><div style="position:relative;width:100%;padding-top:56.25%;overflow:visible;"/><iframe name="plotaroute_map_2499070" src="https://www.plotaroute.com/embedmap/2499070?units=km&hills=show" style="position:absolute;top:0;left:0;bottom:0;right:0;width:100%; height:100%;" frameborder="0" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></div><p style="margin-top:8px;font-family:Helvetica Neue,Helvetica,arial;font-size:11px;">Route map for <a href="https://www.plotaroute.com/route/2499070?units=km" target="_blank" title="View this route map on plotaroute.com">Maraton De La Paz (Temp)</a> by <a href="https://www.plotaroute.com/userprofile/525316" target="_blank" title="View this person's profile on plotaroute.com">Kevin Bauer</a> on <a href="https://www.plotaroute.com" target="_blank" title="plotaroute.com - free route planner for walking, running, cycling and more">plotaroute.com</a></p></div>
+    </div>
+    <div class="map-header">
+      <h4>Ruta Media Maratón (21KM)</h4>
+    </div>
+    <div class="map-route">
+      <div style="overflow:hidden;position:relative;"><div style="position:relative;width:100%;padding-top:56.25%;overflow:visible;"/><iframe name="plotaroute_map_2499070" src="https://www.plotaroute.com/embedmap/2499070?units=km&hills=show" style="position:absolute;top:0;left:0;bottom:0;right:0;width:100%; height:100%;" frameborder="0" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></div><p style="margin-top:8px;font-family:Helvetica Neue,Helvetica,arial;font-size:11px;">Route map for <a href="https://www.plotaroute.com/route/2499070?units=km" target="_blank" title="View this route map on plotaroute.com">Maraton De La Paz (Temp)</a> by <a href="https://www.plotaroute.com/userprofile/525316" target="_blank" title="View this person's profile on plotaroute.com">Kevin Bauer</a> on <a href="https://www.plotaroute.com" target="_blank" title="plotaroute.com - free route planner for walking, running, cycling and more">plotaroute.com</a></p></div>
+    </div>
+    <div class="map-header">
+      <h4>Ruta Carrera Pedestre (10Km)</h4>
+    </div>
+    <div class="map-route">
+      <div style="overflow:hidden;position:relative;"><div style="position:relative;width:100%;padding-top:56.25%;overflow:visible;"/><iframe name="plotaroute_map_2499070" src="https://www.plotaroute.com/embedmap/2499070?units=km&hills=show" style="position:absolute;top:0;left:0;bottom:0;right:0;width:100%; height:100%;" frameborder="0" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe></div><p style="margin-top:8px;font-family:Helvetica Neue,Helvetica,arial;font-size:11px;">Route map for <a href="https://www.plotaroute.com/route/2499070?units=km" target="_blank" title="View this route map on plotaroute.com">Maraton De La Paz (Temp)</a> by <a href="https://www.plotaroute.com/userprofile/525316" target="_blank" title="View this person's profile on plotaroute.com">Kevin Bauer</a> on <a href="https://www.plotaroute.com" target="_blank" title="plotaroute.com - free route planner for walking, running, cycling and more">plotaroute.com</a></p></div>
+    </div>
+    <div class="route-notes-header">
+      <h4>Puntos Importantes</h4>
+    </div>
+    <div class="route-notes">
+      <ul>
+        <li><b>Calles a recorrer.</b> <a href="/docs/calles-recorrer-2018.xlsx" target="_blank">Descarga aqui.</a> </li>
+        <li><b>Horarios de paso aproximados.</b> <a href="/docs/horarios-2018.xlsx" target="_blank">Descarga aqui.</a></li>
+        <li><b>Puntos kilométricos y de abastecimiento aproximado.</b> <a href="/docs/Puntos kilometricos.xlsx" target="_blank">Descarga aqui.</a></li>
+        <li><b>Como llegar a las partidas (todo esto es de 2018, pero se irá actualizando).</b> <a href="/docs/como-llegar-2018.xlsx" target="_blank"> Descarga aqui.</a></li>
+      </ul>
+    </div>
+    <div class="route-notes-header">
+        <h4>Entrenamientos</h4>
+    </div>
+    <div class="training-info">
+      <p>Estaremos entrenando mes a mes por la ruta. Revisa la página del <a href="https://www.facebook.com/maratondelapaz" target="_blank">maratón</a>  o del evento en <a href="https://www.facebook.com/events/841239650559291" target="_blank">Facebook</a> . Idealmente estaremos entrenando los sábados por secciones. Regularmente hay carreras de ruta en La Paz, aniversario de La Paz, del Estado Plurinacional, de la CAF, maratón por la seguridad, de la universidad, de montaña, etc. Participa en ellas.</p>
+    </div>
+  </div>
+  <div id="sponsors">
+    <div class="section-title">
+      <h2>Auspiciadores</h2>
+    </div>
+    <div class="sponsors-info">
+      <p>Las empresas auspiciadoras dan productos. Leo Nothmann, comida en la ruta y meta; Chocolates Cóndor con comida en las partidas. Laboratorios Bagó nos ofrece protector solar además de los arcos de partida. La Cascada nos provee de agua, las mesas, sillas y el arco de meta. Piqueos Kuma auspicia con comida para premios. Reacción Climática ayuda con sus voluntarios. Kardiozentrum con chequeos médicos previos a la carrera  . Megadent con un punto para inscripciones. AndesXtremo con premios. Cefimed con masajes en la meta. BioMoLab punto de inscripción y agua en la subida de Mallasa.</p>
+    </div>
+    <div class="sponsors-container">
+      <div class="grid-item">
+        <img src="/img/sponsors/1.png" alt="LeoNothmann">
+      </div>
+      <div class="grid-item">
+        <img src="/img/sponsors/2.png" alt="Chocolates Condor">
+      </div>
+      <div class="grid-item">
+        <img src="/img/sponsors/3.png" alt="Laboratorios Bago">
+      </div>
+      <div class="grid-item">
+        <img src="/img/sponsors/4.png" alt="La Cascada">
+      </div>
+      <div class="grid-item">
+        <img src="/img/sponsors/5.png" alt="Piqueos Kuma">
+      </div>
+      <div class="grid-item">
+        <img src="/img/sponsors/6.png" alt="Reacción Climatica">
+      </div>
+      <div class="grid-item">
+        <img src="/img/sponsors/7.png" alt="Kardiozentrum">
+      </div>
+      <div class="grid-item">
+        <img src="/img/sponsors/8.png" alt="Megadent">
+      </div>
+      <div class="grid-item">
+        <img src="/img/sponsors/9.png" alt="AndesXtremo">
+      </div>
+      <div class="grid-item">
+        <img src="/img/sponsors/10.png" alt="Cefimed">
+      </div>
+      <div class="grid-item">
+        <img src="/img/sponsors/11.png" alt="BioMoLab">
+      </div>
+    </div>
+  </div>
+
+  <div id="past-events">
+    <div class="section-title">
+      <h2>Eventos Pasados</h2>
+    </div>
+    <div class="versions-container">
+      <div class="version-item">
+        <a href="">Resultados 12da Versión</a>
+        <p>10.3.24</p>
+      </div>
+      <div class="version-item">
+        <a href="https://www.webscorer.com/race?raceid=308259" target="_blank">Resultados 11ra Versión</a>
+        <p>12.3.23</p>
+      </div>
+      <div class="version-item">
+        <a href="https://www.webscorer.com/race?raceid=270697" target="_blank">Resultados 10ma Versión</a>
+        <p>13.3.22</p>
+      </div>
+      <div class="version-item">
+        <a href="https://www.webscorer.com/race?raceid=235873" target="_blank">Resultados 9na Versión</a>
+        <p>14.3.21</p>
+      </div>
+      <div class="version-item">
+        <a href="https://www.webscorer.com/race?raceid=213022" target="_blank">Resultados 8va Versión</a>
+        <p>8.3.20</p>
+      </div>
+      <div class="version-item">
+        <a href="https://www.webscorer.com/race?raceid=172406" target="_blank">Resultados 7ma Versión</a>
+        <p>10.3.19</p>
+        <a href="https://maratondelapaz.com/2019/index.html" target="_blank">Ver Página</a>
+      </div>
+      <div class="version-item">
+        <a href="https://www.maratondelapaz.com/2018/index.html" target="_blank">Página 6ta Versión</a>
+        <p>11.3.18</p>
+      </div>
+      <div class="version-item">
+        <a href="https://www.maratondelapaz.com/2017/index.html" target="_blank">Página 5ta Versión</a>
+        <p>12.3.17</p>
+      </div>
+      <div class="version-item">
+        <a href="https://www.maratondelapaz.com/2016/index.html" target="_blank">Página 4ta Versión</a>
+        <p>24.4.16</p>
+      </div>
+      <div class="version-item">
+        <a href="https://www.maratondelapaz.com/2015/index.html" target="_blank">Página 3ra Versión</a>
+        <p>22.3.15</p>
+      </div>
+      <div class="version-item">
+        <a href="https://www.maratondelapaz.com/2014/index.html" target="_blank">Página 2da Versión</a>
+      </div>
+      <div class="version-item">
+        <a href="https://www.maratondelapaz.com/2013/index.html" target="_blank">Página 1ra Versión</a>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div id="main-footer" class="bg-dark">
+      <div class="social">
+        <a href="https://www.facebook.com/maratondelapaz" target="_blank"> <i class="fab fa-facebook fa-2x"></i></a>
+      </div>
+        <p>Esta carrera está organizada por Cristian Conitzer, su familia, amigos y colaboradores, a puro pulmón y fe.</p>
+      </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="/navbar.js"></script>
+  <script src="/countdown.js"></script> 
+</body>
+</html>
