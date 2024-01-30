@@ -37,7 +37,7 @@
   .navbar .logo img {
     width: 100%;
     height: auto;}
-  #menu {padding: 5% 0;}  
+  #menu {padding: 5% 0;}
   .mobile-nav-icon {display: block;} 
   .navbar .nav a:hover {border-bottom: 0;} 
   /*Content*/
@@ -48,7 +48,7 @@
   .counter ul {margin-bottom: 5%;}
   .counter ul li span {
     font-size: 2.2rem;
-    padding: 5px 20px;}
+    padding: 5px 25px;}
   /*Buttons*/
   .content .buttons {margin-bottom: 5%;}
   /*Race Info*/
@@ -68,10 +68,13 @@
   .content .event-version p {font-size: 2rem;}
    .content .landing-info img {width: 85%;} 
   /*Counter*/
-  .counter ul {margin-bottom: 3%;}
+  .counter ul {margin-bottom: 5%;}
+  .counter ul li {margin: 0 2px; }
   .counter ul li span {
     font-size: 1.5rem;
     padding: 5px 15px;}
+  /*-----Buttons-----*/
+  .reg-btn {margin-bottom: 3%;}
 }
 
 @media only screen and (max-width:280px) {
@@ -89,10 +92,10 @@
   .content .event-version p {font-size: 1.3rem;}
      /*Counter*/
   .counter ul {margin-bottom: 2%;}
-  .counter ul li {font-size: 0.7rem;}
+  .counter ul li {font-size: 0.5rem;}
   .counter ul li span {
     font-size: 1.1rem;
-    padding: 5px 10px;}
+    padding: 3px 10px;}
   /*-----Buttons-----*/
   .btn {
     padding: 10px 10px;
