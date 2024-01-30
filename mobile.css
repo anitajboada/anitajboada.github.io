@@ -1,34 +1,100 @@
 @media only screen and (max-width:1280px) {
-  .content h3 {
-    padding: 0 30px;
-  }
+  /*Content*/
+  .content h1 {padding-top: 7%;}
+  .content h3 {padding: 0 30px;}
 }
 
 @media only screen and (max-width:1024px) {
+  /*Navbar*/
   .navbar ul {justify-content: right;}
-  .hero .content h1 {font-size: 2.5rem;
+  /*Content*/
+  .content h1 {
+    font-size: 2.5rem;
     padding-top: 10%;}
+  .content .event-version p {font-size: 2.2rem;}
+  /*Past Events*/
+  #past-events .section-title {margin-top: 2%;}
 }
 
 @media only screen and (max-width:932px) {
-  .navbar a {margin: 0 5px;}
+  /*Navbar*/
   .navbar {padding: 0 10px;}
+  .navbar a {margin: 0 5px;}
+  /*Content*/
+  .content .landing-info img {width: 70%;} 
+  .content .about-mlp {width: 90%;}
+  /*Sponsors*/
+  #sponsors .sponsors-info {margin: 1% 5%;}
+  .sponsors-container img {width:100%;}
 }
 
 @media only screen and (max-width:768px) {
+  .section-title {margin-top: 8%}
+  /*Navbar*/
   .nav {text-align: center;}
   .navbar {height: auto;}
   .navbar ul {display: none;}
+  .navbar .logo img {
+    width: 100%;
+    height: auto;}
   #menu {padding: 5% 0;}  
   .mobile-nav-icon {display: block;} 
-  .navbar .nav a:hover {
-    border-bottom: 0;
-  } 
+  .navbar .nav a:hover {border-bottom: 0;} 
+  /*Content*/
+  .content h1 {
+    padding-top: 15%;
+    font-size: 2.5rem;}
+  /*Counter*/
+  .counter ul {margin-bottom: 5%;}
+  .counter ul li span {
+    font-size: 2.2rem;
+    padding: 5px 20px;}
+  /*Buttons*/
+  .content .buttons {margin-bottom: 5%;}
+  /*Race Info*/
+  #race .layout-3 {display: block;}
+  #race .layout-3 .card {
+    width: 90%;
+    margin: 10px auto;}
+  .race-info .layout-1 {width: 90%;}
+  /*Past Events*/
+  .versions-container {grid-template-columns: 45% 45%;}
+}
 
+@media only screen and (max-width:430px) {
+  .section-title {margin-top: 10%}
+  /*Content*/
+  .content .landing-info {margin: 0 5%;}
+  .content .event-version p {font-size: 2rem;}
+   .content .landing-info img {width: 85%;} 
+  /*Counter*/
+  .counter ul {margin-bottom: 3%;}
+  .counter ul li span {
+    font-size: 1.5rem;
+    padding: 5px 15px;}
 }
 
 @media only screen and (max-width:280px) {
-  .nav ul{
-    font-size: 0.7rem;
-  } 
+   /*Navbar*/
+  .nav ul{font-size: 0.7rem;} 
+  .versions-container a {font-size: 1rem;}
+  /*Content*/
+  .content h1 {
+    padding-top: 20%;
+    font-size: 2.3rem;}
+  .content h3 {
+    font-size: 1rem;
+    padding: 0 10px;}
+  .content .landing-info {margin: auto;}
+  .content .event-version p {font-size: 1.3rem;}
+     /*Counter*/
+  .counter ul {margin-bottom: 2%;}
+  .counter ul li {font-size: 0.7rem;}
+  .counter ul li span {
+    font-size: 1.1rem;
+    padding: 5px 10px;}
+  /*-----Buttons-----*/
+  .btn {
+    padding: 10px 10px;
+    margin: 0 5px;}
 }
